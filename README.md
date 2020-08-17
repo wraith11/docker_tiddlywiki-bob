@@ -1,2 +1,3 @@
-# docker_tiddlywiki-bob
+# Docker Tiddlywiki-BOB
+
 Dockerfile for Tiddlywiki with BOB extension.
