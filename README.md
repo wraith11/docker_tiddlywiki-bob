@@ -1,8 +1,6 @@
 # Docker Tiddlywiki-BOB
 
-Dockerfile for Tiddlywiki with BOB extension.
-
-This is a image for TiddlyWiki with BOB extension for multiuser access. It provides:
+This is a TiddlyWiki Dockerfile with BOB extension for multiuser access. It provides:
 
 * Multi-User support for using/editing the same wiki(s) simultaneously
 * Multi-Wiki support - run it once and serve multiple wikis
