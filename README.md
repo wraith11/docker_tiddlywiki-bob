@@ -19,8 +19,8 @@ It's a very simple Dockerfile with no configuration.
 >$ docker run -p 8080:8080 -v "tiddlywiki-bob_data:/var/lib/tiddlyiki" --name tiddlywiki-bob wraith116/tiddlywiki-bob:latest
 
 It will create a wiki under $HOME/wikis/BobWiki.  
-I may add a ENV variable in the future to name the wiki - but this only affects the directory name.
+I may add a ENV variable to name the wiki in the future - but this would only affect the directory name.
 
 # Important note!
 I havn't found a possibility to activate TiddlyWiki's password protection with BOB.  
-If you want to make this wiki acessable from the internet you have to set up your own password protection e.g. with a reverse proxy.
+If you want to make this wiki accessible from the internet you have to set up your own password protection e.g. with a reverse proxy.
