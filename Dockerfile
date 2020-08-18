@@ -8,9 +8,8 @@ RUN apk update && apk upgrade && \
 RUN git clone --depth=1 --branch v5.1.21 https://github.com/Jermolene/TiddlyWiki5.git /usr/local/tiddlywiki
 RUN git clone --depth=1 https://github.com/OokTech/TW5-Bob.git /usr/local/tiddlywiki/plugins/OokTech/Bob
 
-WORKDIR /var/lib/tiddlywiki
-
-VOLUME /var/lib/tiddlywiki
+WORKDIR /var/local/tiddlywiki
+VOLUME /var/local/tiddlywiki
 
 COPY entrypoint.sh /
 
