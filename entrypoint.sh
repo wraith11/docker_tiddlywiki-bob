@@ -2,10 +2,10 @@
 set -e
 
 # Create wiki
-if [ ! -d /var/lib/tiddlywiki/wikis ]
+if [ ! -d /var/local/tiddlywiki/wikis ]
 then
-  mkdir /var/lib/tiddlywiki/wikis
-  cp -r /usr/local/tiddlywiki/plugins/OokTech/Bob/MultiUserWiki /var/lib/tiddlywiki/wikis/BobWiki
+  mkdir /var/local/tiddlywiki/wikis
+  cp -r /usr/local/tiddlywiki/plugins/OokTech/Bob/MultiUserWiki /var/local/tiddlywiki/wikis/BobWiki
 fi
 
 # Start the tiddlywiki server
