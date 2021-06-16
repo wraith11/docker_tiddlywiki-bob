@@ -16,7 +16,7 @@ This is a TiddlyWiki Dockerfile with BOB extension for multiuser access. It prov
 ( from https://github.com/OokTech/TW5-Bob )
 
 It's a very simple Dockerfile with no configuration.  
->$ docker run -p 8080:8080 -v "tiddlywiki-bob_data:/var/local/tiddlyiki" --name tiddlywiki-bob wraith116/tiddlywiki-bob:latest
+>$ docker run -p 8080:8080 -v "tiddlywiki-bob_data:/var/local/tiddlywiki" --name tiddlywiki-bob wraith116/tiddlywiki-bob:latest
 
 It will create a wiki under $HOME/wikis/BobWiki.  
 I may add a ENV variable to name the wiki in the future - but this would only affect the directory name.
